@@ -4,6 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world! - from git!'
+                sh 'python jenkinsPythonTest.py'
             }
         }
     }
