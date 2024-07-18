@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world! - from git!'
-                sh 'python C:\ProgramData\Jenkins\.jenkins\workspace\testPipeline_main\jenkinsPythonTest.py'
+                sh 'python C:/ProgramData/Jenkins/.jenkins/workspace/testPipeline_main/jenkinsPythonTest.py'
             }
         }
     }
